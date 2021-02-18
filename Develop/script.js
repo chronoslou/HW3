@@ -1,15 +1,17 @@
-// Assignment Code
+// Homework Code //
 var generateBtn = document.querySelector("#generate");
-var lowerSet = "abcdefghijklmnopqrstuvwxyz";
-var upperSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numSet = "0123456789";
 var specialSet = "!()?[]`~;:!@#$%^&*+=";
 
 
-// Write password to the #password input
+// Write password to the password input //
 function generatePassword() {
+  // vars for password //
   var password = [];
   var passwordLength = prompt("How many characters would you like your password to be? Please eanter a number between 8 and 128");
+    // logic for password length //
     if (!passwordLength) {
       return ("");
     }
