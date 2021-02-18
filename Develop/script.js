@@ -33,6 +33,7 @@ function generatePassword() {
         return ("");
       }
     } 
+  // Vars for added criteria //
   var lowCase = confirm("Would you like your password to include lowercase letters?");
     console.log(lowCase);
   var upCase = confirm("Would you like your password to include uppercase letters?");
@@ -42,12 +43,12 @@ function generatePassword() {
   var specialChars = confirm("Would you like your password to include special characters?");
     console.log(specialChars);
   var passwordSet = "";
-
+    // Logic and criteria //
     if (lowCase) { 
-      passwordSet = lowerSet;
+      passwordSet = lowerCase;
     }
     if (upCase) {
-      passwordSet = passwordSet + upperSet;
+      passwordSet = passwordSet + upperCase;
     }
     if (numbers) {
       passwordSet = passwordSet + numSet;
@@ -62,6 +63,7 @@ function generatePassword() {
   return password;
 };
 
+// function for generating the password //
 function writePassword() {
   var password = generatePassword()
   
