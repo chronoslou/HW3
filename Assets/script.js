@@ -47,12 +47,15 @@ function generatePassword() {
     if (lowCase) { 
       passwordSet = lowerCase;
     }
+    //if logic for uppercase characters 
     if (upCase) {
       passwordSet = passwordSet + upperCase;
     }
+    //if logic for number 
     if (numbers) {
       passwordSet = passwordSet + numSet;
     }
+    //if logic for special characters
     if (specialChars) {
       passwordSet = passwordSet + specialSet;
     }
