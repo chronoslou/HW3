@@ -27,4 +27,5 @@ The application provides the End User with the following information:
 ## Preview of App 
 
 * This is how the app looks
-./Assets/03-javascript-homework-demo.png
+
+![Screenshot](./Assets/Screen-Shot.png) 
