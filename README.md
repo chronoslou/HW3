@@ -1,5 +1,8 @@
 # Homework - JavaScript: Password Generator
 
+## Link to site
+* [Live Link](https://chronoslou.github.io/HW3/)
+
 ## Description
 
 This week's assignment was to modify a started code to create an application that would generate random passwords based on a set list of criteria. The was around Javascript. The criteria for the app is the following:
